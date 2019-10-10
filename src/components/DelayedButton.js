@@ -12,8 +12,8 @@ delayHander = (event) => {
 
 render(){
   return(
-    <button>
-        onClick={this.delayHander}
+    <button
+        onClick={this.delayHander}>
     </button>
   )
  }
