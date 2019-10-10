@@ -9,8 +9,8 @@ mouseHandler = (event) => {
 
   render(){
     return(
-        <button>
-            onClick={this.mouseHandler}
+        <button
+            onClick={this.mouseHandler}>
         </button>
     )
   }
