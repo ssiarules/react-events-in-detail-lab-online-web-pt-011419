@@ -1,5 +1,5 @@
 // Code CoordinatesButton Component Here
-import React, {Component} 'react';
+import React, {Component} from 'react';
 
 export default class CoordinatesButton extends Component{
 
