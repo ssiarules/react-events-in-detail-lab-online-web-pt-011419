@@ -1,7 +1,7 @@
 // Code CoordinatesButton Component Here
-import React from 'react';
+import React, {Component} 'react';
 
-class CoordinatesButton extends React.Component{
+export default class CoordinatesButton extends Component{
 
 mouseHandler = (event) => {
   this.props.onReceiveCoordinates([event.clientX, event.clientY])
