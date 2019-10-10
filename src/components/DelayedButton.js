@@ -7,7 +7,7 @@ onDelayedClick = () =>
 
 delayHander = (event) => {
   event.persist();
-  setTimeout((){
+  setTimeout(() => {
 this.props.onDelayedClick(event);
 this.props.delay);
  }
