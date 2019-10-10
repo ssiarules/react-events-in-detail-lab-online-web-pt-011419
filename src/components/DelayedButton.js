@@ -16,5 +16,5 @@ render(){
         onClick={this.delayHander}
     </button>
   )
-
+ }
 }
