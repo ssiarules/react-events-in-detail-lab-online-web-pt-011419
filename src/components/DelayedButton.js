@@ -3,7 +3,7 @@ import React from 'react';
 
 class DelayedButton extends React.Component{
 
-onDelayedClick = () => 
+onDelayedClick = () =>
 
 delayHander = (event) => {
   event.persist();
